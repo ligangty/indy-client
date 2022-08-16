@@ -33,27 +33,17 @@
     <projectOwner>Red Hat, Inc.</projectOwner>
     <projectEmail>https://github.com/Commonjava/indy</projectEmail>
     
-    <!-- <maven.compiler.useIncrementalCompilation>false</maven.compiler.useIncrementalCompilation> -->
-
     <!-- thirdparty projects -->
     <javaVersion>11</javaVersion>
-    <slf4j-version>1.7.36</slf4j-version>
-    <gsonVersion>2.8.9</gsonVersion>
-    <logbackVersion>1.2.9</logbackVersion>
-    <logbackContribVersion>0.1.5</logbackContribVersion>
-    <weldVersion>2.4.6.Final</weldVersion>
     <jacksonVersion>2.13.3</jacksonVersion>
-    <httpcoreVersion>4.4.9</httpcoreVersion>
     <httpclientVersion>4.5.9</httpclientVersion>
     <honeycombVersion>1.5.1</honeycombVersion>
 
     <!-- commonjava/redhat projects -->
-    <atlasVersion>1.1.1</atlasVersion>
     <bomVersion>27</bomVersion>
     <auditQueryVersion>0.13.1</auditQueryVersion>
     <jhttpcVersion>1.12</jhttpcVersion>
     <httpTestserverVersion>1.4</httpTestserverVersion>
-    <pathmappedStorageVersion>2.1</pathmappedStorageVersion>
     <o11yphantVersion>1.5</o11yphantVersion>
     <indyVersion>2.7.4</indyVersion>
 
@@ -146,12 +136,12 @@
       <!-- o11yphant dependencies -->
       <dependency>
         <groupId>org.commonjava.util</groupId>
-        <artifactId>o11yphant-trace-api</artifactId>
+        <artifactId>o11yphant-metrics-common</artifactId>
         <version>${o11yphantVersion}</version>
       </dependency>
       <dependency>
         <groupId>org.commonjava.util</groupId>
-        <artifactId>o11yphant-trace-core</artifactId>
+        <artifactId>o11yphant-trace-api</artifactId>
         <version>${o11yphantVersion}</version>
       </dependency>
       <dependency>
@@ -166,27 +156,7 @@
       </dependency>
       <dependency>
         <groupId>org.commonjava.util</groupId>
-        <artifactId>o11yphant-trace-helper-servlet</artifactId>
-        <version>${o11yphantVersion}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
         <artifactId>o11yphant-trace-helper-jhttpc</artifactId>
-        <version>${o11yphantVersion}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>o11yphant-trace-helper-httpclient</artifactId>
-        <version>${o11yphantVersion}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>o11yphant-metrics-api</artifactId>
-        <version>${o11yphantVersion}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.commonjava.util</groupId>
-        <artifactId>o11yphant-metrics-common</artifactId>
         <version>${o11yphantVersion}</version>
       </dependency>
 
@@ -206,11 +176,6 @@
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
         <version>${httpclientVersion}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.httpcomponents</groupId>
-        <artifactId>httpcore</artifactId>
-        <version>${httpcoreVersion}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
