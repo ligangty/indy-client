@@ -24,7 +24,7 @@
     <artifactId>indy-client-addons</artifactId>
   </parent>
   <artifactId>indy-diagnostics-client-java</artifactId>
-  <name>Indy :: Add-Ons :: Diagnostic Tools :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: Diagnostic Tools :: Java Client</name>
 
   <dependencies>
     <dependency>

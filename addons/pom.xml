@@ -28,7 +28,7 @@
   <artifactId>indy-client-addons</artifactId>
   <packaging>pom</packaging>
 
-  <name>Indy :: Add-Ons :: Parent</name>
+  <name>Indy :: Client :: Add-Ons :: Parent</name>
   
   <modules>
     <module>folo</module>

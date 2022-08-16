@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>indy-changelog-client-java</artifactId>
-  <name>Indy :: Add-Ons :: ChangeLog :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: ChangeLog :: Java Client</name>
 
   <dependencies>
     <dependency>

@@ -24,7 +24,7 @@
     <artifactId>indy-client-addons</artifactId>
   </parent>
   <artifactId>indy-implied-repos-client-java</artifactId>
-  <name>Indy :: Add-Ons :: Implied Repositories :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: Implied Repositories :: Java Client</name>
 
   <dependencies>
     <dependency>

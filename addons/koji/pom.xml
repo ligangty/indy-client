@@ -24,7 +24,7 @@
     <artifactId>indy-client-addons</artifactId>
   </parent>
   <artifactId>indy-koji-client-java</artifactId>
-  <name>Indy :: Add-Ons :: Koji Integration :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: Koji Integration :: Java Client</name>
 
   <dependencies>
     <dependency>

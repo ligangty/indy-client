@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>indy-content-browse-client-java</artifactId>
-  <name>Indy :: Add-Ons :: Directory Content Browse :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: Directory Content Browse :: Java Client</name>
 
   <dependencies>
     <dependency>

@@ -24,7 +24,7 @@
     <artifactId>indy-client-addons</artifactId>
   </parent>
   <artifactId>indy-folo-client-java</artifactId>
-  <name>Indy :: Add-Ons :: Folo Usage Tracker :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: Folo Usage Tracker :: Java Client</name>
 
   <dependencies>
     <dependency>

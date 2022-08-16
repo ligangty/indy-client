@@ -24,7 +24,7 @@
     <artifactId>indy-client-addons</artifactId>
   </parent>
   <artifactId>indy-hosted-by-archive-client-java</artifactId>
-  <name>Indy :: Add-Ons :: Hosted By Archive :: Java Client</name>
+  <name>Indy :: Client :: Add-Ons :: Hosted By Archive :: Java Client</name>
 
   <dependencies>
     <dependency>
