@@ -27,7 +27,6 @@ import java.io.IOException;
 import java.util.zip.ZipInputStream;
 
 import static org.apache.commons.io.IOUtils.closeQuietly;
-import static org.commonjava.indy.client.core.helper.HttpResources.cleanupResources;
 import static org.commonjava.indy.client.core.util.UrlUtils.buildUrl;
 
 /**

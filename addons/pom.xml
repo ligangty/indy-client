@@ -31,13 +31,13 @@
   <name>Indy :: Client :: Add-Ons :: Parent</name>
   
   <modules>
+    <module>changelog</module>
+    <module>content-browse</module>
+    <module>diagnostics</module>
     <module>folo</module>
+    <module>hosted-by-archive</module>
     <module>implied-repos</module>
     <module>koji</module>
     <module>promote</module>
-    <module>diagnostics</module>
-    <module>hosted-by-archive</module>
-    <module>content-browse</module>
-    <module>changelog</module>
   </modules>
 </project>

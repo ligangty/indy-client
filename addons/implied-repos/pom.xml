@@ -20,8 +20,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.commonjava.indy</groupId>
-    <version>3.0.0-SNAPSHOT</version>
     <artifactId>indy-client-addons</artifactId>
+    <version>3.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>indy-implied-repos-client-java</artifactId>
   <name>Indy :: Client :: Add-Ons :: Implied Repositories :: Java Client</name>
@@ -34,10 +34,6 @@
     <dependency>
     	<groupId>junit</groupId>
     	<artifactId>junit</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.commonjava.indy</groupId>
-      <artifactId>indy-implied-repos-model-java</artifactId>
     </dependency>
   </dependencies>
 </project>

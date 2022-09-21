@@ -1,6 +1,6 @@
 <!--
 
-    Copyright (C) 2011-2020 Red Hat, Inc. (https://github.com/Commonjava/indy)
+    Copyright (C) 2011-2020 Red Hat, Inc. (https://github.com/Commonjava/indy-client)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -29,6 +29,10 @@
   
   <dependencies>
     <dependency>
+      <groupId>org.commonjava.atlas</groupId>
+      <artifactId>atlas-relationships-api</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.commonjava.util</groupId>
       <artifactId>o11yphant-trace-api</artifactId>
     </dependency>
@@ -54,14 +58,10 @@
       <groupId>org.commonjava.util</groupId>
       <artifactId>o11yphant-metrics-common</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.commonjava.indy</groupId>
-      <artifactId>indy-model-core-java</artifactId>
-    </dependency>
-    <dependency>
+    <!-- <dependency>
       <groupId>org.commonjava.indy</groupId>
       <artifactId>indy-test-fixtures-core</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
