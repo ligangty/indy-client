@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2011-2020 Red Hat, Inc. (https://github.com/Commonjava/indy)
+ * Copyright (C) 2011-2020 Red Hat, Inc. (https://github.com/Commonjava/indy-client)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,8 +22,6 @@ import org.commonjava.util.jhttpc.JHttpCException;
 import org.commonjava.util.jhttpc.auth.ClientAuthenticator;
 import org.commonjava.util.jhttpc.auth.PasswordType;
 import org.commonjava.util.jhttpc.model.SiteConfig;
-
-import java.net.URL;
 
 public abstract class IndyClientAuthenticator extends ClientAuthenticator
 {
