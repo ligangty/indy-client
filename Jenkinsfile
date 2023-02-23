@@ -8,7 +8,7 @@ def bc_section = 'build-configs'
 def my_bc = null
 
 pipeline {
-    agent { label 'maven-jdk11' }
+    agent { label 'maven-36-jdk11' }
     stages {
         stage('Prepare') {
             steps {
