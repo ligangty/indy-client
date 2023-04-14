@@ -20,13 +20,27 @@ import java.util.UUID;
 /**
  * Created by ruhan on 12/5/18.
  */
-public abstract class AbstractPromoteRequest<T extends PromoteRequest> implements PromoteRequest
+public abstract class AbstractPromoteRequest<T extends PromoteRequest>
+        implements PromoteRequest
 {
     protected boolean async;
 
     protected String promotionId = UUID.randomUUID().toString(); // default
 
+    protected String trackingId;
+
     protected CallbackTarget callback;
+
+    public String getTrackingId()
+    {
+        return trackingId;
+    }
+
+    public T setTrackingId( String trackingId )
+    {
+        this.trackingId = trackingId;
+        return (T) this;
+    }
 
     @Override
     public boolean isAsync()
